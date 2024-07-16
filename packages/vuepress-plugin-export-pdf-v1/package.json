@@ -56,7 +56,6 @@
     "vuepress": "1.x"
   },
   "dependencies": {
-    "@condorhero/vuepress-plugin-export-pdf-core": "workspace:^",
     "debug": "^4.3.4"
   },
   "devDependencies": {

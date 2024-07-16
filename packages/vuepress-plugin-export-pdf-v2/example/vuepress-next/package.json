@@ -16,7 +16,6 @@
     "docs:export": "press-export-pdf export docs"
   },
   "devDependencies": {
-    "@condorhero/vuepress-plugin-export-pdf-v2": "workspace:^",
     "@vuepress/bundler-vite": "^2.0.0-rc.9",
     "@vuepress/theme-default": "^2.0.0-rc.28",
     "vue": "^3.4.27",
