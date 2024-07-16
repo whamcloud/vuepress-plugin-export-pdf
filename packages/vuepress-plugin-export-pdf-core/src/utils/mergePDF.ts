@@ -21,7 +21,7 @@ export interface NormalizePage {
  * @param outDir - Output directory
  * @returns relativePath - Output relative path
  */
-export async function mergePDF(pages: NormalizePage[], outFile: string, outDir: string, pdfOutlines = true) {
+export async function mergePDF(pages: NormalizePage[], baseUrl: string,  outFile: string, outDir: string, pdfOutlines = true) {
   const saveDirPath = join(process.cwd(), outDir)
   outDir && fse.ensureDirSync(saveDirPath)
   const saveFilePath = join(saveDirPath, outFile)
@@ -36,10 +36,12 @@ export async function mergePDF(pages: NormalizePage[], outFile: string, outDir: 
   else {
     let pdfData: Buffer
     if (pdfOutlines) {
-      pdfData = await mergePDFs(pages.map(({ pagePath }) => {
+      let pdfs = pages.map(({ pagePath }) => {
         const relativePagePath = relative(process.cwd(), pagePath)
         return convertPathToPosix(relativePagePath)
-      }))
+      })
+      let urls = pages.map(({ location }) => location)
+      pdfData = await mergePDFs(pdfs, urls, baseUrl)
     }
     else {
       const doc = new pdf.Document()

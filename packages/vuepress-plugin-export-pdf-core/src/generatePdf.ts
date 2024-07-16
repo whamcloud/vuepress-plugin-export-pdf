@@ -64,6 +64,7 @@ export async function generatePdf({
 
   const localURLOrigin = `${host}:${port}`
 
+  let baseUrl = urlOrigin ? `${userURLOrigin}` : `http://${localURLOrigin}`
   const normalizePages = exportPages.map((page) => {
     return {
       url: page.path,
@@ -134,7 +135,7 @@ export async function generatePdf({
   singleBar.stop()
   await printer.closeBrowser()
 
-  const exportedPath = await mergePDF(normalizePages, outFile, outDir, pdfOutlines)
+  const exportedPath = await mergePDF(normalizePages, baseUrl, outFile, outDir, pdfOutlines)
   const message = `\nExported to ${pc.yellow(exportedPath)}\n`
   process.stdout.write(message)
 
