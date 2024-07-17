@@ -1,4 +1,4 @@
-import type { CAC } from '@condorhero/vuepress-plugin-export-pdf-core'
+import type { CAC } from '@whamcloud-ddn/vuepress-plugin-export-pdf-core'
 
 import { registerCommands } from './commands'
 import type { UserConfig } from '.'

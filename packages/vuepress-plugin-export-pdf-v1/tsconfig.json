@@ -3,7 +3,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "vuepress": ["./node_modules/@condorhero/vuepress-types"]
+      "vuepress": ["./node_modules/@whamcloud-ddn/vuepress-types"]
     }
   }
 }

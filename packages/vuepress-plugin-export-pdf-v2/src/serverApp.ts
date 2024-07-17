@@ -8,7 +8,7 @@ import {
   transformUserConfigToPlugin,
 } from 'vuepress'
 import debug from 'debug'
-import type { CommandOptions } from '@condorhero/vuepress-plugin-export-pdf-core'
+import type { CommandOptions } from '@whamcloud-ddn/vuepress-plugin-export-pdf-core'
 import {
   checkEnv,
   generatePdf,
@@ -16,7 +16,7 @@ import {
   resolveUserConfigConventionalPath,
   resolveUserConfigPath,
   timeTransformer,
-} from '@condorhero/vuepress-plugin-export-pdf-core'
+} from '@whamcloud-ddn/vuepress-plugin-export-pdf-core'
 
 import pkg from '../package.json'
 import type { UserConfig } from '.'

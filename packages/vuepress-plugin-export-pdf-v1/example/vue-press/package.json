@@ -16,7 +16,7 @@
     "docs:export": "press-export-pdf export docs"
   },
   "devDependencies": {
-    "@condorhero/vuepress-plugin-export-pdf": "workspace:^",
+    "@whamcloud-ddn/vuepress-plugin-export-pdf": "workspace:^",
     "vuepress": "^1.9.10"
   }
 }

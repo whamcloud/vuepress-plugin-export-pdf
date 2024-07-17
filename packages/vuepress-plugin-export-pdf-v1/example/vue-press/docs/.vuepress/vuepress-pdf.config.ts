@@ -1,4 +1,4 @@
-import { defineUserConfig } from '@condorhero/vuepress-plugin-export-pdf'
+import { defineUserConfig } from '@whamcloud-ddn/vuepress-plugin-export-pdf'
 
 export default defineUserConfig({
   theme: '@vuepress/theme-default',

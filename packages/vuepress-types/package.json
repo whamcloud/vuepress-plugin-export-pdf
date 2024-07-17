@@ -1,5 +1,5 @@
 {
-  "name": "@condorhero/vuepress-types",
+  "name": "@whamcloud-ddn/vuepress-types",
   "version": "3.0.3",
   "private": "true",
   "description": "VuePress TypeScript helpers for 1.x",

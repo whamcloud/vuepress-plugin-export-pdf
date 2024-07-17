@@ -1,3 +1,3 @@
-const { vuePressPlugin } = require('@condorhero/vuepress-plugin-export-pdf')
+const { vuePressPlugin } = require('@whamcloud-ddn/vuepress-plugin-export-pdf')
 
 module.exports = vuePressPlugin

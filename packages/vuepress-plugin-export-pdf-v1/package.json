@@ -1,5 +1,5 @@
 {
-  "name": "@condorhero/vuepress-plugin-export-pdf",
+  "name": "@whamcloud-ddn/vuepress-plugin-export-pdf",
   "type": "module",
   "version": "3.0.3",
   "description": "VuePress 1.x plugin exports a PDF 📁.",
@@ -56,11 +56,11 @@
     "vuepress": "1.x"
   },
   "dependencies": {
-    "@condorhero/vuepress-plugin-export-pdf-core": "workspace:^",
+    "@whamcloud-ddn/vuepress-plugin-export-pdf-core": "workspace:^",
     "debug": "^4.3.4"
   },
   "devDependencies": {
-    "@condorhero/vuepress-types": "^2.0.1",
+    "@whamcloud-ddn/vuepress-types": "workspace:^",
     "@types/debug": "^4.1.12",
     "vuepress": "^1.9.10"
   },
