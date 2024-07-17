@@ -1,5 +1,5 @@
 {
-  "name": "@condorhero/vuepress-plugin-export-pdf-monorepo",
+  "name": "@whamcloud-ddn/vuepress-plugin-export-pdf-monorepo",
   "type": "module",
   "version": "3.0.3",
   "private": true,
