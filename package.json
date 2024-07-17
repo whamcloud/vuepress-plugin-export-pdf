@@ -1,7 +1,7 @@
 {
   "name": "@whamcloud-ddn/vuepress-plugin-export-pdf-monorepo",
   "type": "module",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "private": true,
   "packageManager": "pnpm@9.1.0",
   "description": "VuePress plugin I wrote",

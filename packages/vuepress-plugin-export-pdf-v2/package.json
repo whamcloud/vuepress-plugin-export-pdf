@@ -1,7 +1,7 @@
 {
   "name": "@whamcloud-ddn/vuepress-plugin-export-pdf-v2",
   "type": "module",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "VuePress 2.x plugin exports a PDF 📁.",
   "author": "CondorHero",
   "license": "MIT",

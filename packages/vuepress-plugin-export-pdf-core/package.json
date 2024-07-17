@@ -1,7 +1,7 @@
 {
   "name": "@whamcloud-ddn/vuepress-plugin-export-pdf-core",
   "type": "module",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "The Core of VuePress and VitePress exports PDF plugin",
   "author": "CondorHero",
   "license": "MIT",
@@ -49,7 +49,7 @@
     "dev": "esno ./src/index.ts"
   },
   "dependencies": {
-    "@whamcloud-ddn/merge-pdfs": "*",
+    "@whamcloud-ddn/merge-pdfs": "0.0.8",
     "bundle-require": "^4.1.0",
     "cac": "^6.7.14",
     "envinfo": "^7.13.0",

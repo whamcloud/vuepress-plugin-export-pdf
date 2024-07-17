@@ -1,6 +1,6 @@
 {
   "name": "@whamcloud-ddn/vuepress-types",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "private": "true",
   "description": "VuePress TypeScript helpers for 1.x",
   "author": "CondorHero",
